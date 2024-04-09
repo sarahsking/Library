@@ -10,7 +10,7 @@ addBook.addEventListener("click", () => {
     dialog.showModal();
 });
 
-confirmButton.addEventListener("click", ()=> {
+confirmButton.addEventListener("click", (event)=> {
     event.preventDefault();
     newBook();
     dialog.close();
